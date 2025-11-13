@@ -10,10 +10,7 @@ color: white;
   display: flex;
   flex-wrap: wrap; 
   padding: 130px;
-
-
 }
-
 
 header {
  
@@ -23,8 +20,6 @@ header {
     font-family:'Calistoga';
     
 }
-
-
 
 
 nav {
@@ -52,28 +47,16 @@ nav a:hover {
 
 text-align: center;
 min-height: 400px;
+padding-top: 60px;
 
 }
 
 
 
-.portada h2 p a{
-    font-size: 28px;
-    margin-bottom: 10px;
-    position: static;
-}
-
-.boton {
+.portada p{
+    font-size: 20px;
     background-color: black;
-    color: white;
-   
-    text-decoration: none;
     
-}
-
-.boton:hover {
-    background-color: white;
-    color: black;
 }
 
 
@@ -122,12 +105,7 @@ footer {
     text-align: center;
   }
 
-  .carro {
-    max-height: 200px;
-    width: auto;
-    
-  }
-
+ 
   
   nav {
     flex-direction: column;
@@ -148,10 +126,7 @@ footer {
  
   }
 
-  .texto-portada {
-    position: static;
-    transform: none;
-  }
+ 
 
   main {
     padding: 15px;
@@ -183,11 +158,7 @@ footer {
     margin: 0 20px;
   }
 
-  .carro {
-    max-height: 300px;
-    width: auto;
-  }
-
+  
   
   nav {
     flex-direction: row;
@@ -207,16 +178,7 @@ footer {
     justify-content: center;
   }
 
-  .texto-portada {
-    position: relative;
-    color: white;
-  }
-
-  .texto-portada h2 {
-    font-size: 32px;
-  }
-
-
+  
   #mapa img {
     width: 80%;
     max-width: 800px;
